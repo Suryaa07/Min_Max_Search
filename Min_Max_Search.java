@@ -18,7 +18,7 @@ return (n==1)? 0 : 1 + log2(n/2);
 }
 
 	public static void main (String[] args) {
-	int scores[] = {3, 7, 2, 9, 12, 5, 4, 6};
+	int scores[] = {3, 5, 2, 9, 4, 7, 8};
 	int n = scores.length;
 	int h = log2(n);
 	int res = minimax(0, 0, true, scores, h);
